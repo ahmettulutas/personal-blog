@@ -1,0 +1,7 @@
+.home-main-div {
+    grid-area:2 / 1 / span 1 / span 1;  
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width:100%;
+}

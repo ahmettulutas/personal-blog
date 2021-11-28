@@ -1,0 +1,4 @@
+.welcome-div {
+    border:1px solid black;
+    grid-area:1 / 1 / span 1 / span 3;
+}
