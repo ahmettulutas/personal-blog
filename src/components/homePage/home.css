@@ -1,7 +1,13 @@
 .home-main-div {
-    grid-area:2 / 1 / span 1 / span 1;  
     display:grid;
-    grid-template-columns:repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    width:100%;
+    background-color: burlywood;
+    grid-template: repeat(5, 1fr) / repeat(5, 1fr);
+}
+.login-div {
+    border:2px solid black;
+    display: flex;
+    flex-direction:column;
+    gap:1rem;
+    grid-column:5/6;
+    grid-row:1/4;
 }

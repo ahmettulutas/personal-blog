@@ -15,18 +15,14 @@ export default function PostBlog() {
         e.preventDefault()
         setBlog("")}
         
-    if(!loginBool.isAuth) 
-    {
-    return <Navigate to="/login" />
-    }
     return (
         <div >
             <form onSubmit={handleSubmit}>
-                <input 
+                <textarea 
                 value={blog}
                 type="text"
                 onChange={(e)=> setBlog(prev => e.target.value)}>
-                </input>
+                </textarea>
                 <button type="submit">Post</button>
             </form>
         </div>

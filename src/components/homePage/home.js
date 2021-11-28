@@ -9,8 +9,10 @@ function Home() {
     return (
         <div className="home-main-div">
             <Welcome loginBool={loginBool}/>
-            <AllPosts />
-            {!loginBool.isAuth && <LoginForm />}
+            {loginBool.isAuth && <AllPosts />}
+            
+            {!loginBool.isAuth && <div className="login-div"><LoginForm /></div>}
+            
         </div>
     )
 }

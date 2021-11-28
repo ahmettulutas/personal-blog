@@ -3,6 +3,11 @@
     width:100%;
     display:flex;
     justify-content:flex-end;
-    gap:1rem;
-    padding:5px 5px;    
+    padding:1rem;   
+    grid-column: 1/4;
+    grid-row:1/1;
+    text-decoration: none;
+}
+.link {
+    
 }

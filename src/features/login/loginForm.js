@@ -31,7 +31,8 @@ function LoginForm() {
   return (
     <div className="login-main-div">
       <h1> Please Login if you already have an account </h1>
-      <form className="form-div"onSubmit={handleSubmit}>
+      <section className="form-div">
+      <form className="login-form"onSubmit={handleSubmit}>
         <input
           value={loginInfo.user}
           name="user"
@@ -46,9 +47,10 @@ function LoginForm() {
           type="password"
           placeholder="enter your password"
         ></input>
-        <button type="submit"> add </button>
+        <button type="submit">login</button>
       </form>
-      <button><Link to="/sign-up">SIGNUP</Link></button>
+      <button className="sign-up-button"><Link to="/sign-up">SIGNUP</Link></button>
+      </section>
     </div>
   );
 }

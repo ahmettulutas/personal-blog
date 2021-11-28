@@ -19,6 +19,7 @@ export default function App() {
           <Route path="/post-blog" element={<PostBlog />}/>
         </Routes>
         </section>
+        <h1 className="footer">Footer</h1>
       </Router>
     </div>
 

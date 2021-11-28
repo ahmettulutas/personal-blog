@@ -1,0 +1,5 @@
+.main-each-post-div {
+    border:1px solid blue;
+    grid-column:2/6;
+    grid-row:1/6;
+}

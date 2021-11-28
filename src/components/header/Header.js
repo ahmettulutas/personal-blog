@@ -8,12 +8,6 @@ import { getLoginBool } from '../../features/login/loginSlice';
     return (
         <div className="main-div">
             <Link to="/">HOME</Link>
-                {loginBool.isAuth ?
-                    <Link to="/post-blog">POST</Link> :
-                <div>
-                    <Link to="/sign-up">SIGNUP</Link>
-           
-                </div>}
         </div>
     )
 }
